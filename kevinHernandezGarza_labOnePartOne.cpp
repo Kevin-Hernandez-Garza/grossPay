@@ -22,14 +22,16 @@ int main()
     // declaring variables
     double annual_pay, bi_monthly, bi_weekly;
 
+    // assigning and calculating values to the declared variables
     annual_pay = 39000;
     bi_monthly = annual_pay / 24;
     bi_weekly = annual_pay / 26;
 
     // displaying results to the console
-    std::cout << "Gross annual pay is $" << annual_pay << std::endl;
-    std::cout << "Gross pay per bi-monthly paycheck is $" << bi_monthly << std::endl;
-    std::cout << "Gross pay per bi-weekly paycheck is $" << bi_weekly << std::endl;
+    cout << "Gross annual pay is $" << annual_pay << endl;
+    cout << "Gross pay per bi-monthly paycheck is $" << bi_monthly << endl;
+    cout << "Gross pay per bi-weekly paycheck is $" << bi_weekly << endl;
 
+    // returns 0 if program fails
     return 0;
 }
