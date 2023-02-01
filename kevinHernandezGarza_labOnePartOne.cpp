@@ -19,7 +19,17 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World";
+    // declaring variables
+    double annual_pay, bi_monthly, bi_weekly;
+
+    annual_pay = 39000;
+    bi_monthly = annual_pay / 24;
+    bi_weekly = annual_pay / 26;
+
+    // displaying results to the console
+    std::cout << "Gross annual pay is $" << annual_pay << std::endl;
+    std::cout << "Gross pay per bi-monthly paycheck is $" << bi_monthly << std::endl;
+    std::cout << "Gross pay per bi-weekly paycheck is $" << bi_weekly << std::endl;
 
     return 0;
 }
