@@ -6,7 +6,8 @@
 // Due Date: 2/4/23
 // Instructor: Dr.Haytham Mohamed
 //
-// This program computes a star player's height by using the modulus operation
+// This program computes a basketball player's height
+// by using the modulus  and division operations
 //  ******************************************************************
 
 #include <iostream>
